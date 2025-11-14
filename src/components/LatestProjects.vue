@@ -116,7 +116,7 @@ const Projects = ref([
   {
     id: 1,
     category: "web development",
-    image: "src/assets/notifications/notifications-service.png",
+    image: "/notifications-service.png",
     title: "Notifications service",
     description: "Notifications service for mobile user and web users using FCM.",
     technologies: [".NET 8", "Firebase Cloud Messaging","MongoDB"]
@@ -124,7 +124,7 @@ const Projects = ref([
   {
     id: 2,
     category: "web development",
-    image: "src/assets/estacion-2.png",
+    image: "/estacion-2.png",
     title: "Weve business backend",
     description: "This service allows you to create electric charging stations and connect chargers to them.",
     technologies: [".NET 6","MongoDB", "Azure Blob Storage", "Azure DevOps"]
@@ -132,7 +132,7 @@ const Projects = ref([
   {
     id: 3,
     category: "web development",
-    image: "src/assets/weve-admin.png",
+    image: "/weve-admin.png",
     title: "Weve admin backend",
     description: "Platform that controls and monitors Weve business users.",
     technologies: [".NET 6","MongoDB"]
@@ -140,7 +140,7 @@ const Projects = ref([
   {
     id: 4,
     category: "web development",
-    image: "src/assets/firmware-charger.png",
+    image: "/firmware-charger.png",
     title: "Firmware version management backend",
     description: "Backend to store, retrieve, delete, and manage electric charger firmware versions.",
     technologies: [".NET 8","Azure Blob Storage"]
@@ -148,7 +148,7 @@ const Projects = ref([
    {
     id: 5,
     category: "devops",
-    image: "src/assets/grafana2.png",
+    image: "/grafana2.png",
     title: "Server monitoring service",
     description: "Server monitoring built with Grafana, Node Exporter, and Prometheus.",
     technologies: ["Docker","Grafana","Node exporter","Prometheus","Ubuntu"]
