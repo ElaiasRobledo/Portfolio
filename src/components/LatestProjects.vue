@@ -1,17 +1,14 @@
 <template>
   <section id="projects" class="text-white mt-20">
     <div class="text-center mb-12">
-      <h2 class="text-5xl font-bold text-white">
+      <h2 class="text-4xl font-bold text-white">
         My
         <span
-          class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+          class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-500"
         >
           Projects
         </span>
       </h2>
-      <p class="text-gray-400 mt-3 text-base">
-        Algunos de mis trabajos recientes y proyectos personales
-      </p>
     </div>
 
     <ul
@@ -116,21 +113,45 @@
 import { ref } from "vue";
 
 const Projects = ref([
-  // {
-  //   id: 1,
-  //   category: "web development",
-  //   image: "src/assets/eliaspic.jpg",
-  //   title: "NOTIFICACIONES",
-  //   description: "PROBANDO",
-  //   technologies: [".NET"]
-  // },
-  // {
-  //   id: 2,
-  //   category: "Cloud",
-  //   image: "",
-  //   title: "Monitoring",
-  //   description: "PROBANDO",
-  //   technologies: ["Linux","Grafana"]
-  // }
+  {
+    id: 1,
+    category: "web development",
+    image: "src/assets/notifications/notifications-service.png",
+    title: "Notifications service",
+    description: "Notifications service for mobile user and web users using FCM.",
+    technologies: [".NET 8", "Firebase Cloud Messaging","MongoDB"]
+  },
+  {
+    id: 2,
+    category: "web development",
+    image: "src/assets/estacion-2.png",
+    title: "Weve business backend",
+    description: "This service allows you to create electric charging stations and connect chargers to them.",
+    technologies: [".NET 6","MongoDB", "Azure Blob Storage", "Azure DevOps"]
+  },
+  {
+    id: 3,
+    category: "web development",
+    image: "src/assets/weve-admin.png",
+    title: "Weve admin backend",
+    description: "Platform that controls and monitors Weve business users.",
+    technologies: [".NET 6","MongoDB"]
+  },
+  {
+    id: 4,
+    category: "web development",
+    image: "src/assets/firmware-charger.png",
+    title: "Firmware version management backend",
+    description: "Backend to store, retrieve, delete, and manage electric charger firmware versions.",
+    technologies: [".NET 8","Azure Blob Storage"]
+  },
+   {
+    id: 5,
+    category: "devops",
+    image: "src/assets/grafana2.png",
+    title: "Server monitoring service",
+    description: "Server monitoring built with Grafana, Node Exporter, and Prometheus.",
+    technologies: ["Docker","Grafana","Node exporter","Prometheus","Ubuntu"]
+  }
 ]);
 </script>

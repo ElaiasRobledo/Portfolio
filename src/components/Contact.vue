@@ -1,15 +1,11 @@
 <template>
   <section class="text-white mt-20" id="contact">
-    <h2 class="text-4xl font-bold text-white text-left mb-4 px-4 xl:pl-16">
+    <h2 class="text-3xl font-bold text-white text-left mb-4 px-4 xl:pl-16">
       Let's Connect
     </h2>
 
-    <div class="grid md:grid-cols-2 gap-4 relative px-4 xl:px-16 mt-8" data-aos="zoom-in-up">
+    <div class="grid md:grid-cols-2 gap-4 relative px-4 xl:px-16 mt-5" data-aos="zoom-in-up">
       <div>
-        <p class="text-[#adb7be]">
-          Si querés ponerte en contacto conmigo, te dejo mis redes y correo.
-        </p>
-
         <div class="mt-8 space-y-8">
 
           <!-- LinkedIn -->
@@ -31,7 +27,7 @@
                 target="_blank"
                 class="text-[#adb7be] hover:text-primary transition"
               >
-                linkedin.com/in/elias-robledo
+                www.linkedin.com/in/elias-robledo
               </a>
             </div>
           </div>
@@ -51,11 +47,11 @@
             <div class="ml-5">
               <h4 class="font-semibold">GitHub</h4>
               <a
-                href="https://github.com/eliasrobledo"
+                href="https://github.com/ElaiasRobledo"
                 target="_blank"
                 class="text-[#adb7be] hover:text-primary transition"
               >
-                github.com/eliasrobledo
+                github.com/ElaiasRobledo
               </a>
             </div>
           </div>
@@ -75,14 +71,35 @@
             <div class="ml-5">
               <h4 class="font-semibold">Email</h4>
               <a
-                href="mailto:elias.robledo@example.com"
+                href="mailto:eliasrobledoxx@hotmail.com"
                 class="text-[#adb7be] hover:text-primary transition"
               >
-                elias.robledo@example.com
+                eliasrobledoxx@hotmail.com
               </a>
             </div>
           </div>
-
+            <div class="flex items-center">
+            <div
+              class="p-2 flex justify-center items-center rounded-full border border-[#111a3e]"
+              style="background:#111a3e;width:50px;height:46px;backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);"
+            >
+              <img
+                src="https://img.icons8.com/?size=100&id=11116&format=png&color=000000"
+                alt="Spotify"
+                class="w-6 h-6"
+              />
+            </div>
+            <div class="ml-5">
+              <h4 class="font-semibold">Spotify</h4>
+              <a
+                href="https://open.spotify.com/user/314ixcklxmpchw3s52znv7in6i3a?si=35acdd6268384406"
+                target="_blank"
+                class="text-[#adb7be] hover:text-primary transition"
+              >
+                Spotify/EliasRobledo
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
